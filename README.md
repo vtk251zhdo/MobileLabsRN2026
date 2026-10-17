@@ -54,3 +54,28 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+# Lab Work 1: React Native & Expo Basics
+
+A simple React Native mobile application built with Expo to demonstrate UI structure, basic components, and navigation. Developed as part of the university laboratory practicum.
+
+**Author:** Danil Zhukovskyi (Group VТк-25-1)  
+**Institution:** Zhytomyr Polytechnic State University
+
+## Features
+- **Expo Router Navigation:** Implemented Bottom Tabs for seamless switching between Home, Gallery, and Profile screens.
+- **Custom Components:** Reusable `Header` component with dynamic properties.
+- **Optimized Lists:** Used `FlatList` for efficient rendering of the news feed and image gallery grid.
+- **Styling:** Applied Flexbox layout system and custom styles reflecting the university's brand colors.
+- **Icons:** Integrated `@expo/vector-icons` for intuitive UI navigation.
+
+## Project Structure
+- `app/_layout.tsx` - Root layout configuration.
+- `app/(tabs)/` - Bottom tabs screens (Home, Gallery, Profile).
+- `components/Header.tsx` - Reusable header layout.
+- `assets/` - Local images and icons.
+
+## How to Run
+1. Install dependencies:
+   ```bash
+   npm install
