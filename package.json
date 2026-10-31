@@ -4,7 +4,10 @@
   "main": "expo-router/entry",
   "dependencies": {
     "@expo/ui": "~58.0.25",
-    "expo": "~58.0.21",
+    "@expo/vector-icons": "^15.0.2",
+    "@react-navigation/drawer": "^6.7.2",
+    "@react-navigation/native": "^6.1.18",
+    "expo": "~58.0.0",
     "expo-constants": "~58.0.14",
     "expo-device": "~58.0.5",
     "expo-font": "~58.0.11",
